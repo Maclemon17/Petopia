@@ -81,7 +81,7 @@ const Navbar = () => {
             </div>
 
             <div className={`${openNav ? "translate-x-0" : "-translate-x-full hidden"} lg:hidden absolute flex flex-col left-0 top-16 bg-[#f5eee6] text-[#6b4226] font-semibold text-2xl pt-8 px-5 pb-4 gap-8 w-full h-fit transition-transform duration-300`}>
-                <ul className="">
+                <ul className="cursor-pointer">
                     <li className="hover:text-petopia-brown"><a href="/">Home</a></li>
                     <details className="group">
                         <summary className=" hover:text-petopia-brown">Services</summary>

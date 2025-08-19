@@ -1,4 +1,4 @@
-import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa"
+import { FaFacebook, FaInstagram, FaPaw, FaTwitter, FaYoutube } from "react-icons/fa"
 
 
 const Footer = () => {
@@ -8,7 +8,12 @@ const Footer = () => {
 
                 {/* FOOTER LOGO */}
                 <div>
-                    <h2 className="text-3xl font-bold mb-3">Petopia</h2>
+                    <div className="flex items-center gap-2 select-none cursor-pointer">
+                        <div className="bg-petopia-light-brown p-2 rounded-full mb-3">
+                            <FaPaw className="text-2xl hover:text-black" />
+                        </div>
+                        <h2 className="text-3xl font-bold mb-3">Petopia</h2>
+                    </div>
 
                     <p className="text-sm text-[#e6d9cd]">
                         Your pet's second-best friend (after you!). We provide top-notch care, grooming, food & more.

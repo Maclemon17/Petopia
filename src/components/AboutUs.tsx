@@ -6,7 +6,7 @@ const AboutUs = () => {
             <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10">
                 {/* ABOUT TEXT */}
                 <div className="flex-1">
-                    <h2 className="text-4xl font-bold text-[#5a3b1f] mb-6">About Petoria</h2>
+                    <h2 className="text-4xl font-bold text-[#5a3b1f] mb-6 md:text-left text-center">About Petopia</h2>
                     <p className="text-[#664a2e] text-lg loading-relaxed mb-4">
                         At <span className="font-semibold">Petopia</span> we believe that
                         pets aren't just animals — they're family. That's why we built a

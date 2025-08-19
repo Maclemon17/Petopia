@@ -18,7 +18,7 @@ const Navbar = () => {
         <header className="bg-white shadow-md px-6 py-4 lg:px-20">
             <div className="flex justify-between items-center">
                 {/* LOGO */}
-                <div className="flex items-center gap-2 text-2xl font-bol select-none cursor-pointer">
+                <div className="flex items-center gap-2 text-2xl font-bold select-none cursor-pointer">
                     <span className="bg-petopia-light-brown p-2 rounded-full">
                         <FaPaw />
                     </span>

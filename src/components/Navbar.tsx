@@ -40,16 +40,16 @@ const Navbar = () => {
 
                             {showDropdown && (
                                 <div className="absolute top-6 left-0 shadow bg-white p-2 rounded z-10 w-40">
-                                    <a className="block py-1 px-2 hover:text-petopia-brown" href="/">Grooming</a>
-                                    <a className="block py-1 px-2 hover:text-petopia-brown" href="/">Vaccination</a>
-                                    <a className="block py-1 px-2 hover:text-petopia-brown" href="/">Training</a>
+                                    <a className="block py-1 px-2 hover:text-petopia-brown" href="#services">Grooming</a>
+                                    <a className="block py-1 px-2 hover:text-petopia-brown" href="#services">Vaccination</a>
+                                    <a className="block py-1 px-2 hover:text-petopia-brown" href="#services">Training</a>
                                 </div>
                             )}
                         </li>
-                        <li className="hover:text-petopia-brown"><a href="/about">About</a></li>
-                        <li className="hover:text-petopia-brown"><a href="/services">Shop</a></li>
-                        <li className="hover:text-petopia-brown"><a href="/services">Blog</a></li>
-                        <li className="hover:text-petopia-brown"><a href="/contact">Contact</a></li>
+                        <li className="hover:text-petopia-brown"><a href="#AboutUs">About</a></li>
+                        <li className="hover:text-petopia-brown"><a href="#WhyChooseUs">Shop</a></li>
+                        <li className="hover:text-petopia-brown"><a href="#testimonials">Blog</a></li>
+                        <li className="hover:text-petopia-brown"><a href="#faqs">Contact</a></li>
                     </ul>
                 </nav>
 

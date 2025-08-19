@@ -26,7 +26,7 @@ const testimonials = [
 
 const Testimonials = () => {
     return (
-        <section className="py-16 px-6 lg:px-24 bg-[#fdf5ec]">
+        <section className="py-16 px-6 lg:px-24 bg-[#fdf5ec]" id="testimonials">
             <h2 className="text-3xl font-bold text-center mb-4 text-[#5a3b1f]">What Our Customers Say</h2>
             <p className="text-center text-[#7c5a3b] max-w-2xl mx-auto mb-12 text-[17px]">
                 Real stories from happy customers who've experienced the Petopia difference.

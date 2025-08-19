@@ -38,7 +38,7 @@ const FAQs = () => {
         setOpenIndex(index === openIndex ? null : index)
     }
     return (
-        <section className="py-16 px-6 lg:px-24 bg-[#f8f1ea]">
+        <section className="py-16 px-6 lg:px-24 bg-[#f8f1ea]" id="faqs">
             <h2 className="text-3xl font-bold text-center mb-4 text-[#5a3b1f]">Frequently Asked Questions</h2>
             <p className="text-center text-[#7c5a3b] max-w-2xl mx-auto mb-12 text-[17px]">
                 Got Pawsitive doubts? Let's clear them out!
